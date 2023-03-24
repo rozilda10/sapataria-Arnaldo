@@ -1,10 +1,15 @@
-titulo-pagina. {
+.titulo-pagina {
     text-align: center;
     font-size: 2rem;
 }
 .subtitulo-pagina{
-    text-align: right;
+    text-align: center;
     font-size: 15pt;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
 }
 .titulo-artigo{
     font-size: 11;
@@ -13,3 +18,12 @@ titulo-pagina. {
     font-size: medium;
 }
 
+.centrar {margin: top 185px; margin-left: 125px ;
+}
+
+.banner-header {
+    width: 100%;
+    height:200px;/*perde o aspect ratio*/
+    object-fit: cover;
+    object-position: 50% 20%;
+    } 
